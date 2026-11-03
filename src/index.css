@@ -20,10 +20,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 16px 6vw;
-    background: transparent;
-    position: sticky;
+    position: absolute;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 10;
+    background: transparent;
 }
 
 .logo {
@@ -39,6 +41,12 @@ body {
 .header nav {
     display: flex;
     gap: 8px;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 10px 26px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 999px;
 }
 
 .header nav a {
@@ -78,8 +86,8 @@ body {
     grid-template-columns: 1.1fr 1fr;
     align-items: center;
     gap: 48px;
-    height: calc(100vh - 72px);
-    padding: 0 6vw;
+    min-height: 100vh;
+    padding: 90px 6vw 30px;
     overflow: hidden;
     background:
         radial-gradient(circle at 75% 50%, rgba(115, 3, 192, 0.35), transparent 55%),

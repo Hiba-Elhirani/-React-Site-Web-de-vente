@@ -10,7 +10,7 @@ const links = [
 const NavBar = () => {
     return (
         <header className="header">
-            <h1 className="logo">Mon<span className="logoSpan">Shop</span></h1>
+            <h1 className="logo">Tech<span className="logoSpan">Shop</span></h1>
             <nav>
                     {links.map((link) => (
                         <NavLink
