@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaPhone, FaMapMarkerAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";;
+import { MdEmail } from "react-icons/md";
 const Contact = () => {
 
     const [name, setName] = useState("");
