@@ -20,6 +20,7 @@ const Produits = () => {
                             <h2>{produit.titre}</h2>
                             <p>{produit.description}</p>
                             <span>{produit.prix} MAD</span>
+                            <button>Ajouter au panier</button>
                         </div>
                     ))}
                 </div>
