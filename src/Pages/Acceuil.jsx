@@ -1,4 +1,5 @@
 import { assets } from "../assets/assets"
+import { Link } from "react-router-dom";
 
 const Acceuil = () => {
     return (
@@ -8,8 +9,8 @@ const Acceuil = () => {
                 <h1 className="title">Tech pour les passionnés</h1>
                 <p className="des">Retrouvez les meilleurs casques, AirPods haute fidélité, manettes de jeu et gadgets électroniques au meilleur prix. Qualité garantie, livraison rapide partout au Maroc et service client réactif.</p>
                 <div className="home-btn">
-                    <button>Explorer la boutique</button>
-                    <button>Contactez Nous</button>
+                    <Link to="/produits">Explorer la boutique</Link>
+                    <Link to="/contact">Contactez Nous</Link>
                 </div>
             </div>
             <div className="rightContent">

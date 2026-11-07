@@ -3,6 +3,7 @@ import MainLayout from "./Layouts/MainLayout.jsx"
 import { useEffect, useState } from "react"
 import Acceuil from "./Pages/Acceuil.jsx"
 import Produits from "./Pages/Produits.jsx"
+import Contact from "./Pages/Contact.jsx"
 
 const App = () => {
   const [theme] = useState("light");
@@ -15,6 +16,7 @@ const App = () => {
       <Route element={<MainLayout />}>
         <Route path="/" element={<Acceuil/>}/>
         <Route path="/produits" element={<Produits/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Route>
     </Routes>
   )
